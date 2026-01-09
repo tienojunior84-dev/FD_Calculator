@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} /* Center the content vertically and horizontally */
+
+.container{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+
+}/* Style the main container */
+
+.container:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+} /* Add hover effect to the container */
+
+h1{
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+} /* Style the main heading */
+
+.form-group{
+    margin-bottom: 10px;
+} /* Style the form groups */
+
+.form-group label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+} /* Style the labels */
+
+.form-group input{
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+} /* Style the input fields */
+
+.result{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+} /* Style the result section */
+
+.calculate-btn{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+} /* Style the calculate button */
+.calculate-btn:hover{
+    background-color: darkblue;
+} /* Add hover effect to the calculate button */
